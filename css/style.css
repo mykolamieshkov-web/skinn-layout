@@ -66,8 +66,9 @@ font-size: 18px;
 line-height: 20px;
 font-family: 'Inter', sans-serif;
 color: #222222;
-margin-left: 4px;
-
+margin-left: 4px;}
+.header_links a:hover {
+   text-decoration: underline 6px #E7DED8;
 }
 .footer {
    background:#E7DED8;
