@@ -101,7 +101,7 @@ margin-left: 4px;}
   
    .banner {
       max-width: 1470px;
-      height: 1125px;
+      height: 555px;
       display: flex;
       gap: 0px;
    }
@@ -148,6 +148,72 @@ font-family: 'Inter', sans-serif;
       transition: background-color  #68513F 0.5s ease;
       transform: scale(1.2);
    }
+   .scincare_block {
+      width: 100%;
+      height: 550px;
+   }
+   .scincare_title {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+   }
+
+   #subtitle {
+ font-family: 'Song Myung', serif;     
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 98px;
+text-align: center;
+color: #000000;
+   }
+   #italic {
+font-family: 'Style Script,cursive';
+font-style: normal;
+font-weight: 400;
+font-size: 137px;
+line-height: 112px;
+text-align: center;
+color: #68513F;
+transform: rotate(-5.08deg);
+   }
+   .scincare_title p {
+ margin-top: 15px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+color: #000000;
+   }
+   #rounded {
+font-family: 'Inter', sans-serif;     
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+text-align: center;      
+color: #68513F;     
+height: 45px;
+width: 95px;
+background: #F1EBE7;
+border: 1px solid #DACEC6;
+border-radius: 73px;
+   }
+   #rounded:hover {
+      cursor: pointer;
+      transition: background-color  #68513F 0.5s ease;
+      transform: scale(1.2);
+   }
+   .scincare_pictures {
+      display: flex;
+      justify-content: space-around;
+   }
+   .scincare_pictures img {
+      max-width: 100%;
+      border: 1px solid #DACEC6; 
+   }
    /* mobile layout */
    @media (max-width: 31.25rem) {
    .fooher_icons {
@@ -159,6 +225,16 @@ font-family: 'Inter', sans-serif;
       background-position: left;
       background-size: cover;
 
+   }
+   #subtitle {
+font-size: 18px;
+   }
+   #italic {
+      font-size: 35px;
+      
+   }
+   #rounded {
+      margin-top: 10px;
    }
    #square {
       width: 140px;
@@ -185,8 +261,15 @@ font-family: 'Inter', sans-serif;
    .banner_title {
       margin: 10px;
    }
-   
- 
+   #rounded {
+      font-size: 12px;
    }
+   .scincare_pictures {
+      justify-content: space-between;
+   }
+ .scincare_pictures img { 
+   width: 25%;
+   height: 25%;
+   }}
 
 
