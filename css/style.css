@@ -212,7 +212,8 @@ border-radius: 73px;
    }
    .scincare_pictures img {
       max-width: 100%;
-      border: 1px solid #DACEC6; 
+      border: 1px solid #DACEC6;
+      border-radius: 10px; 
    }
    /* mobile layout */
    @media (max-width: 31.25rem) {
