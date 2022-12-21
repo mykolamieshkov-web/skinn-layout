@@ -78,7 +78,7 @@ margin-left: 4px;}
    text-align: center;
    bottom: 0;
    left: 0;
-   position: absolute;
+   position: relative;
    display: flex;
 }
 #logo {
@@ -227,11 +227,73 @@ border-radius: 73px;
       background-repeat: no-repeat;
       margin-top: 35px;
    }
+   .products {
+      width: 100%;
+      height: 720px;
+      margin-top: 15px;
+   }
+   .products_title{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+   }
+   .products_cards {
+      display: flex;
+      justify-content: space-around;
+   }
+   .card {
+ width: 200px;
+height: 400px;
+background: #E7DED8;
+border-radius: 10px;
+
+   }
+   .card img {
+      max-width: 100%;
+   }
+   .card p {
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height, or 151% */
+text-transform: uppercase;
+color: #000000;
+float: left;
+   }
+   .feature_picture img  {
+      max-width: 100%;
+   }
+   .blog_content_conteiner {
+      display: flex;
+      justify-content: space-between;
+   }
+
    /* mobile layout */
    @media (max-width: 31.25rem) {
    .fooher_icons {
       gap: 3px;
       margin-left: 60%;
+   }
+   .blog_content_conteiner {
+      display: block;
+   }
+   .feature_picture img {
+      width: 50%;
+      height: 50%;
+   }
+   .products_cards {
+      height: 250px;
+      
+   }
+   .card img {
+      width: 30%;
+      height: 20%;
+   }
+   .card p {
+      font-size: 10px;
+      float: none;
    }
    .banner_content {
       max-zoom: 50%;
@@ -287,6 +349,12 @@ font-size: 18px;
  .scincare_pictures img { 
    width: 25%;
    height: 25%;
-   }}
+   }
+   .products_cards {
+      justify-content: space-between;
+      gap: 1px;
+      height: 250px;
+   }
+}
 
 
