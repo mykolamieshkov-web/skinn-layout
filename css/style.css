@@ -215,6 +215,18 @@ border-radius: 73px;
       border: 1px solid #DACEC6;
       border-radius: 10px; 
    }
+   .banner_photo {
+      width: 1340px;
+      height: 500px;
+      margin-left: 0;
+      margin-right: 0;
+      display: block;
+      background-image: url("/img/backgroundpicture.PNG");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-top: 35px;
+   }
    /* mobile layout */
    @media (max-width: 31.25rem) {
    .fooher_icons {
@@ -226,6 +238,10 @@ border-radius: 73px;
       background-position: left;
       background-size: cover;
 
+   }
+   .banner_photo {
+      width: 100vw;
+      background-size: auto;
    }
    #subtitle {
 font-size: 18px;
